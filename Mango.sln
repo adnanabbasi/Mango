@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{6FF9AB4B-B26F-4CCE-B45C-13BD8154644F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{49196921-C90A-4D69-81F8-FDB276977A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{49196921-C90A-4D69-81F8-FDB276977A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{C40A898B-A734-4331-8BDC-B6F6F0EB4F14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{49196921-C90A-4D69-81F8-FDB276977A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49196921-C90A-4D69-81F8-FDB276977A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49196921-C90A-4D69-81F8-FDB276977A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40A898B-A734-4331-8BDC-B6F6F0EB4F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40A898B-A734-4331-8BDC-B6F6F0EB4F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40A898B-A734-4331-8BDC-B6F6F0EB4F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40A898B-A734-4331-8BDC-B6F6F0EB4F14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{284D08C6-E112-41BA-94B9-77896C4867FC} = {285CA108-1BF4-42E9-A5BF-FA81E96864F7}
 		{6FF9AB4B-B26F-4CCE-B45C-13BD8154644F} = {3252684C-446E-4397-98E4-A10177FED7B4}
 		{49196921-C90A-4D69-81F8-FDB276977A93} = {285CA108-1BF4-42E9-A5BF-FA81E96864F7}
+		{C40A898B-A734-4331-8BDC-B6F6F0EB4F14} = {285CA108-1BF4-42E9-A5BF-FA81E96864F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29F2BB08-109B-45C3-8922-DB29F2DF0205}
