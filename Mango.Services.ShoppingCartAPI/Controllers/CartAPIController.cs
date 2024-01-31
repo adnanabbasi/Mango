@@ -17,14 +17,16 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         private readonly AppDbContext _db;
         private IProductService _productService;
         private ICouponService _couponService;
-        public CartAPIController(AppDbContext db, IMapper mapper, IProductService productService, ICouponService couponService)
+        public CartAPIController(AppDbContext db, 
+                                 IMapper mapper, 
+                                 IProductService productService, 
+                                 ICouponService couponService)
         {
             _db = db;
             _productService = productService;
             this._response = new ResponseDto();
             _mapper = mapper;
             _couponService = couponService;
-
         }
 
         [HttpGet("GetCart/{userId}")]
